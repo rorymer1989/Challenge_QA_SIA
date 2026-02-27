@@ -1,0 +1,49 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "lib": [
+            "ES2022",
+            "dom"
+        ],
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "allowJs": true,
+        "skipLibCheck": true,
+        "strict": false,
+        "noEmit": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                "./src/*"
+            ],
+            "@/pages/*": [
+                "./src/pages/*"
+            ],
+            "@/tests/*": [
+                "./src/tests/*"
+            ],
+            "@/config/*": [
+                "./src/config/*"
+            ],
+            "@/utils/*": [
+                "./src/utils/*"
+            ],
+            "@/data/*": [
+                "./src/data/*"
+            ],
+            "@/fixtures/*": [
+                "./src/fixtures/*"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "playwright-report",
+        "test-results"
+    ]
+}

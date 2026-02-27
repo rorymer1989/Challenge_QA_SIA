@@ -1,0 +1,24 @@
+{
+    "folderNames": {
+        "specialChars": "FOLDER_!@#$%^&*()",
+        "prefix": "CONTENIDO DEX MANAGER"
+    },
+    "urls": {
+        "invalid": "this-is-not-a-url"
+    },
+    "search": {
+        "searchTerm": "CONTENIDO"
+    },
+    "performance": {
+        "largeFileUploadTimeout": 60000,
+        "multipleOperationsTimeout": 30000
+    },
+    "errorPatterns": {
+        "duplicate": "ya existe|already exists"
+    },
+    "viewModes": {
+        "grid": "grid",
+        "list": "list",
+        "card": "card"
+    }
+}

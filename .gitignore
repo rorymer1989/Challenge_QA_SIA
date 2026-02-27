@@ -1,0 +1,44 @@
+
+# Agent
+.Agents/
+
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Environment variables
+.env
+.env.local
+.env.test
+!.env.example
+
+# Authentication state
+auth/storageState.json
+
+# Test artifacts
+screenshots/
+downloads/
+test-files/uploaded_*
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
