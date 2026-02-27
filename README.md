@@ -1,10 +1,10 @@
-# Framework de Automatización QA para DEX Manager
+# Framework de Automatización QA DEX Manager
 
-Framework de automatización de pruebas a nivel empresarial para DEX Manager usando Playwright y TypeScript.
+Framework de automatización de pruebas DEX Manager usando Playwright y TypeScript.
 
 ## 🏗️ Resumen de Arquitectura
 
-Este framework implementa las mejores prácticas de la industria, incluyendo:
+Este framework implementa las mejores prácticas, incluyendo:
 - **Page Object Model (POM)** patrón de diseño
 - **TypeScript** para un tipado seguro y fácil mantenimiento
 - Gestión de **configuración basada en entornos**
